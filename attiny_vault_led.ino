@@ -12,6 +12,7 @@ Adafruit_NeoPixel pixels = Adafruit_NeoPixel(1, LED_PIN, NEO_GRB+NEO_KHZ800);
 
 void setup()
 {
+  pinMode(VAULT_STATUS_PIN, INPUT);
   pixels.begin();
 }
 
@@ -28,5 +29,6 @@ void loop()
   {
     pixels.setPixelColor(0, COLOR_GREEN);
   }
+  pixels.show();
  
 }

@@ -1,8 +1,8 @@
-# attiny_vault_led
+# ATTiny85 Vault LED Control
 
-ATTiny program to drive the vault LED.
+This repo contains the code for the Tiny85 in the (WOW bank vault project)[https://github.com/gsalaman/wow_bank_vault]
 
-We're going to sniff the vault control pin into D0. (attiny pin5)
+The ATTiny85 sniff the vaults control pin (from the microbit pin 8) on it's D0. (attiny pin5)
 
 We'll attach an RGB LED to D2 (attiny pin7)
 
